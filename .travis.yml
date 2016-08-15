@@ -2,7 +2,7 @@ language: python
 python:
     - "2.7"
 install:
-    - pip install -q -U pip setuptools tox 
+    - pip install -q -U pip setuptools tox coverage
 script: 
     tox
 after_success:
